@@ -15,6 +15,7 @@ class choose : AppCompatActivity() {
         createBtn.setOnClickListener {
             val intent = Intent(this, Create::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
