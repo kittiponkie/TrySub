@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         startBtn.setOnClickListener {
             val intent = Intent(this,secondActivity::class.java)
-            startActivity(intent)
+            startActivity(intent)//test
         }
     }
 }
