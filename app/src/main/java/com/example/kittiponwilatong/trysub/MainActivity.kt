@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         startBtn.setOnClickListener {
-            val intent = Intent(this,secondActivity::class.java)
-            startActivity(intent)//test
+            val intent = Intent(this,MiniGame::class.java)
+            startActivity(intent)
         }
     }
 }
