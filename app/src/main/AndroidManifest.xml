@@ -19,7 +19,10 @@
         <activity android:name=".secondActivity" />
         <activity android:name=".selectGameActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".HighScoreActivity"></activity>
+        <activity android:name=".HighScoreActivity" />
+        <activity android:name=".Create_Login.createNew" />
+        <activity android:name=".Create_Login.Create" />
+        <activity android:name=".Create_Login.choose"></activity>
     </application>
 
 </manifest>
